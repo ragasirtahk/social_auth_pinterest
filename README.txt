@@ -35,7 +35,7 @@ INSTALLATION
 ------------
 
  * Run composer to install the dependencies.
-   composer require "ragasirtahk/social_auth_pinterest:^2.0"
+   composer require ragasirtahk/social_auth_pinterest
 
  * Install the dependencies: Social API and Social Auth.
 
