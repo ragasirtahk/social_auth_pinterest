@@ -1,5 +1,5 @@
 {
-    "name": "drupal/social_auth_pinterest",
+    "name": "ragasirtahk/social_auth_pinterest",
     "type": "drupal-module",
     "description": "Social Auth integration for Pinterest.",
     "keywords": ["Drupal"],
