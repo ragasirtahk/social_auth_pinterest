@@ -1,0 +1,4 @@
+social_auth_pinterest.settings.tab:
+  title: 'Pinterest'
+  route_name: social_auth_pinterest.settings_form
+  base_route: social_auth.integrations

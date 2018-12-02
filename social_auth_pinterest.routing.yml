@@ -1,0 +1,27 @@
+social_auth_pinterest.redirect_to_pinterest:
+  path: 'user/login/pinterest'
+  defaults:
+    _controller: '\Drupal\social_auth_pinterest\Controller\PinterestAuthController::redirectToPinterest'
+  requirements:
+    # Anonymous users can log in, but authenticated users can also associate a new provider
+    _access: 'TRUE'
+  options:
+    no_cache: TRUE
+
+social_auth_pinterest.callback:
+  path: 'user/login/pinterest/callback'
+  defaults:
+    _controller: '\Drupal\social_auth_pinterest\Controller\PinterestAuthController::callback'
+  requirements:
+    # Anonymous users can log in, but authenticated users can also associate a new provider
+    _access: 'TRUE'
+  options:
+    no_cache: TRUE
+
+social_auth_pinterest.settings_form:
+  path: 'admin/config/social-api/social-auth/pinterest'
+  defaults:
+    _title: 'Social Auth Pinterest settings'
+    _form: '\Drupal\social_auth_pinterest\Form\PinterestAuthSettingsForm'
+  requirements:
+    _permission: 'administer social api authentication'

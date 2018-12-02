@@ -1,0 +1,17 @@
+{
+    "name": "drupal/social_auth_pinterest",
+    "type": "drupal-module",
+    "description": "Social Auth integration for Pinterest.",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "require": {
+        "vantezzen/oauth2-pinterest": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Sagar Khatri (ragasirtahk)",
+            "email": "ragasirtahk@gmail.com"
+        },
+    ]
+}
